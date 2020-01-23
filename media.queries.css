@@ -1,0 +1,53 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+        #left-side-bar,
+        #right-side-bar,
+        {
+            display: block;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        #left-side-bar,
+        #right-side-bar,
+        {
+            display: block;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        #left-side-bar,
+        #right-side-bar,
+        {
+            display: block;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        #left-side-bar,
+        #right-side-bar,
+        {
+            display: none;
+        }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+        #left-side-bar,
+        #right-side-bar,
+        {
+            display: none;
+        }
+
+    }
